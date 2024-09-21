@@ -1,0 +1,182 @@
+#produto {
+    height: 733px;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+}
+
+#comprar {
+    height: 612px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#imagem {
+    height: 490px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem img {
+    height: 400px;
+    width: 400px;
+}
+
+.azulCor {
+    color: #006bb4;
+}
+
+.azulEscuro {
+    color: #0c3bdd;
+}
+
+#preco h2{
+    position: relative;
+    top: 5px;    
+}
+
+#pagamentoOpcoes {
+    position: relative;
+    bottom: 15px; 
+}
+
+#tiposPagamento {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    gap: 20px;
+}
+
+#paragrafoOpcoes {
+    position: relative;
+    top: 13px;
+}
+
+#cartaoCredito {
+    height: 36px;
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 3px;
+    background-color: #D5F6E2;
+}
+
+#pix {
+    height: 36px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 3px;
+    background-color: #D5F6E2;
+}
+
+#cartaoCredito img {
+    height: 30px;
+    width: 30px;
+}
+
+#cartaoCredito p {
+    position: relative;
+    top: 3px;
+}
+
+#pix img {
+    height: 25px;
+    width: 25px;
+}
+
+#pix p {
+    position: relative;
+    top: 5px;
+}
+
+#quantidade {
+    position: relative;
+    top: 30px;
+}
+
+#unidades {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.botao {
+    color: #FFF;
+    background-color: #0c3bdd;;
+    border: none;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+#unidades input {
+    height: 34px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+#compras {
+    height: 220px;
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#compra-entrega {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    background-color: #47CC50;
+    color: white;
+    cursor: pointer;
+}
+
+#compra-retira {
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    background-color: #0c3bdd;
+    color: white;
+    cursor: pointer;
+}
+
+.texto-compra {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-compra {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-compra i {
+    height: 30px;
+    width: 30px;
+}
