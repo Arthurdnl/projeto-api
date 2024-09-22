@@ -147,7 +147,6 @@
     border-radius: 8px;
     background-color: #47CC50;
     color: white;
-    cursor: pointer;
 }
 
 #compra-retira {
@@ -158,7 +157,6 @@
     border-radius: 8px;
     background-color: #0c3bdd;
     color: white;
-    cursor: pointer;
 }
 
 .texto-compra {
