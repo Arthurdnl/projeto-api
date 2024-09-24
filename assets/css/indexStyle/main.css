@@ -191,3 +191,7 @@
     color: white;
     display: flex;
 }
+
+#quantidadeProdutos {
+    text-align: center;
+}
