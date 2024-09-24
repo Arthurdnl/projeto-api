@@ -180,7 +180,14 @@
     width: 30px;
 }
 
-#carro {
-    
-    
+#comprarRetirar {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+#comprarReceber {
+    text-decoration: none;
+    color: white;
+    display: flex;
 }

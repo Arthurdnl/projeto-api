@@ -94,3 +94,8 @@
     cursor: pointer;
     font-weight: bolder;
 }
+
+#minhaConta {
+    text-decoration: none;
+    color: white;
+}
