@@ -1,14 +1,15 @@
 #produto {
     height: 733px;
-    width: 1600px;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding: 3%;
 }
 
 #comprar {
     height: 612px;
-    width: 700px;
+
     display: flex;
     flex-direction: column;
 }
@@ -177,4 +178,9 @@
 .imagem-compra i {
     height: 30px;
     width: 30px;
+}
+
+#carro {
+    
+    
 }
