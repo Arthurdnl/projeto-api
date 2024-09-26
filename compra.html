@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/compraStyle/style.css">
     <link rel="stylesheet" href="assets/css/compraStyle/header.css">
     <link rel="stylesheet" href="assets/css/compraStyle/main.css">
+    <script src="/assets/javascript/compra.js" defer></script>
 </head>
 <body>
 
@@ -57,77 +58,89 @@
 
     <main>
 
-        <div id="container">
-
-            <div class="containerInfos" id="primeiroContainer">
-
-                <div class="input-labels">
-
-                    <label for="" class="label">Email</label>
-
-                    <input type="text" class="input">
-
-                    <label for="" class="label">Senha</label>
-
-                    <input type="text" class="input">
-
-                    <label for="" class="label">Confirmar senha</label>
-
-                    <input type="text" class="input">
-
-                </div>
-
-                <button class="button">Proximo</button>
-
-            </div>
-
-            <div class="containerInfos" id="segundoContainer">
-
-                <div class="input-labels">
-
-                    <label for="" class="label">CEP</label>
-
-                    <input type="text" class="input">
-
-                    <label for="" class="label">Rua</label>
-
-                    <input type="text" class="input">
-
-                    <label for="" class="label">Número</label>
-
-                    <input type="text" class="input">
-
-                </div>
-
-                <button class="button">Proximo</button>
-                
-            </div>
-
-            <div class="containerInfos" id="terceiroContainer">
-
-                <div class="input-labels">
-
-                    <label for="" class="label">Nome completo</label>
-
-                    <input type="text" class="input">
-    
-                    <label for="" class="label">Data de nascimento</label>
-    
-                    <input type="date" class="input">
-    
-                    <label for="" class="label">CPF</label>
-    
-                    <input type="text" class="input">
-
-                </div>
-
-                <button class="button">Finalizar</button>
-                
-            </div>
-
+        <div id="modal">
+                <h2>Crie sua conta Havan !</h2>
+                <input type="text" placeholder="Digite seu nome e sobrenome">
+                <input type="text" placeholder="Digite seu CPF">
+                <input type="email" placeholder="Digite seu E-mail">
+                <input type="password" placeholder="Crie sua senha">
+                <input type="password" placeholder="Confirme sua senha">
+                <input type="text" placeholder="Digite seu CEP">
+                <button id="btn-cadastrar">Cadastrar</button>
         </div>
-
-    </main>
-    
-</body>
-</html>
+        <div class="container">
+            <div class="cart">
+             <h2>
+              Seu carrinho
+             </h2>
+             <div class="cart-item">
+              <img src="assets/images/pneu.webp" alt="">
+              <div class="details">
+               <h3>
+                Pneu Pirelli Powergy 225/45 R17 91W - Preto
+               </h3>
+               <p>
+                Cód.:411929-1     
+                </p>
+              </div>
+              <div class="price">
+               R$ 399,90
+              </div>
+              <div class="quantity">
+               <button>
+                -
+               </button>
+               <input type="text" value="1"/>
+               <button>
+                +
+               </button>
+              </div>
+              <div class="remove">
+               <i class="fas fa-trash">
+               </i>
+              </div>
+             </div>
+             <a class="continue-shopping" href="#">
+              Continue comprando
+             </a>
+             <a class="clear-cart" href="#">
+              Limpar carrinho de compras
+             </a>
+            </div>
+            <div class="delivery">
+             <h3>
+              Forma de entrega
+             </h3>
+             <input type="text" value="57048-570"/>
+             <a class="cep-link" href="#">
+              Não sabe seu CEP?
+             </a>
+             <div class="info">
+              <p>
+               Os prazos de entrega começam a contar a partir da confirmação de pagamento!!
+              </p>
+             </div>
+             <div class="options">
+              <div class="option">
+               <input id="standard" name="delivery" type="radio"/>
+               <label for="standard">
+                Entrega Padrão
+               </label>
+               <div class="price">
+                Em até 9 dias úteis R$ 73,86
+               </div>
+              </div>
+              <div class="option">
+               <input id="express" name="delivery" type="radio"/>
+               <label for="express">
+                Entrega Expressa
+               </label>
+               <div class="price">
+                Em até 3 dias úteis R$ 123,45
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </body>
+         </html>

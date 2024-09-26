@@ -2,6 +2,7 @@ const botaoDiminuir = document.querySelector("#diminuir")
 const botaoAdicionar = document.querySelector("#adicionar")
 const quantidade = document.querySelector("#quantidadeProdutos")
 
+
 let quantidadeAtual = 0;
 
 botaoDiminuir.addEventListener("click", (event) =>{
@@ -15,3 +16,4 @@ botaoAdicionar.addEventListener("click", (event) =>{
     quantidadeAtual++
     quantidade.value = quantidadeAtual
 });
+
