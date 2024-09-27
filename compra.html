@@ -58,7 +58,9 @@
 
     <main>
 
-        <div id="modal">
+        <div id="todoConteudo">
+
+            <div id="modal">
                 <h2>Crie sua conta Havan !</h2>
                 <input type="text" placeholder="Digite seu nome e sobrenome">
                 <input type="text" placeholder="Digite seu CPF">
@@ -67,80 +69,101 @@
                 <input type="password" placeholder="Confirme sua senha">
                 <input type="text" placeholder="Digite seu CEP">
                 <button id="btn-cadastrar">Cadastrar</button>
+            </div>
+
+            <div id="retornar">
+
+                <a href="">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg>
+
+                </a>
+                
+                <h1>Seu carrinho</h1>
+
+            </div>
+
+            <div class="container">
+
+                <div class="cart">
+
+                    <div class="cart-item">
+
+                        <img src="assets/images/pneu.webp" alt="">
+                
+                        <div class="details">
+
+                            <h3>Pneu Pirelli Powergy 225/45 R17 91W - Preto</h3>
+                            <p>Cód.:411929-1</p>
+
+                        </div>
+
+                        <div class="price">
+
+                            R$ 399,90
+
+                        </div>
+
+                        <div class="quantity">
+
+                            <button>
+                            -
+                            </button>
+                            <input type="text" value="1"/>
+                            <button>
+                            +
+                            </button>
+
+                        </div>
+
+                        <div class="remove">
+
+                            <i class="fas fa-trash"></i>
+
+                        </div>
+
+                    </div>
+
+                    <a class="continue-shopping" href="#">
+
+                        Continue comprando
+
+                    </a>
+
+                    <a class="clear-cart" href="#">
+
+                        Limpar carrinho de compras
+
+                    </a>
+
+                </div>
+
+                <div class="delivery">
+
+                    <h2>Forma de entrega</h2>
+                    <input type="text">
+                    <a class="cep-link" href="#">Não sabe seu CEP?</a>
+
+                    <div class="info">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
+                            <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+                        </svg>
+                        <p>Os prazos de entrega começam a contar a partir da confirmação de pagamento!!</p>
+
+                    </div>
+
+            
+
+                </div>
+
+            </div>
+            
         </div>
-        <div class="container">
-            <div class="cart">
-             <h2>
-              Seu carrinho
-             </h2>
-             <div class="cart-item">
-              <img src="assets/images/pneu.webp" alt="">
-              <div class="details">
-               <h3>
-                Pneu Pirelli Powergy 225/45 R17 91W - Preto
-               </h3>
-               <p>
-                Cód.:411929-1     
-                </p>
-              </div>
-              <div class="price">
-               R$ 399,90
-              </div>
-              <div class="quantity">
-               <button>
-                -
-               </button>
-               <input type="text" value="1"/>
-               <button>
-                +
-               </button>
-              </div>
-              <div class="remove">
-               <i class="fas fa-trash">
-               </i>
-              </div>
-             </div>
-             <a class="continue-shopping" href="#">
-              Continue comprando
-             </a>
-             <a class="clear-cart" href="#">
-              Limpar carrinho de compras
-             </a>
-            </div>
-            <div class="delivery">
-             <h3>
-              Forma de entrega
-             </h3>
-             <input type="text" value="57048-570"/>
-             <a class="cep-link" href="#">
-              Não sabe seu CEP?
-             </a>
-             <div class="info">
-              <p>
-               Os prazos de entrega começam a contar a partir da confirmação de pagamento!!
-              </p>
-             </div>
-             <div class="options">
-              <div class="option">
-               <input id="standard" name="delivery" type="radio"/>
-               <label for="standard">
-                Entrega Padrão
-               </label>
-               <div class="price">
-                Em até 9 dias úteis R$ 73,86
-               </div>
-              </div>
-              <div class="option">
-               <input id="express" name="delivery" type="radio"/>
-               <label for="express">
-                Entrega Expressa
-               </label>
-               <div class="price">
-                Em até 3 dias úteis R$ 123,45
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </body>
-         </html>
+
+    </main>
+
+</body>
+</html>
