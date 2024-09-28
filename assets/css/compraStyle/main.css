@@ -12,6 +12,12 @@
     gap: 10px;
 }
 
+#retornar svg {
+    height: 30px;
+    width: 30px;
+    color: black;
+}
+
 #pedidoInfoGerais {
     display: flex;
     flex-direction: row;
