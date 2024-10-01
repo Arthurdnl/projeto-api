@@ -17,3 +17,6 @@ botaoAdicionar.addEventListener("click", (event) =>{
     quantidade.value = quantidadeAtual
 });
 
+fetch("http://localhost:8080/client/v1")
+.then(response => response.json())
+.then(data => console.log(data))

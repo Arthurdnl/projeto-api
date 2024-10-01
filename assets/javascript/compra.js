@@ -20,10 +20,7 @@ window.onload= function (params) {
     corpo.style.filter="blur(3px)"
 }
 
-btnCadastrar.addEventListener("click",(e)=>{
-    modal.style.display="none"
-    corpo.style.filter="blur()"
-});
+
 
 btnComprar.addEventListener("click", (event) =>{
     modal.style.display = "block"
@@ -65,4 +62,34 @@ document.addEventListener('keypress', function(event) {
         rua.innerHTML = endereco.logradouro;
         bairro.innerHTML = endereco.bairro;
     }
+});
+
+const nome = document.querySelector('#name')
+const email = document.querySelector('#email')
+const cep = document.querySelector('#cep')
+const cpf = document.querySelector('#cpf')
+const password = document.querySelector('#password')
+
+
+btnCadastrar.addEventListener("click",(e)=>{
+    fetch("http://localhost:8080/client/v1",{
+        method: "POST",
+        headers:{
+            'accept':'application/json',
+            'Content-Type':'application/json'
+        },
+        body: JSON.stringify({
+    
+            name: nome.value,
+            email: email.value,
+            password: password.value,
+            cpf: cpf.value,
+            cep: cep.value,
+        })
+    
+    }).then(response => response.json())
+    
+    // modal.style.display="none"
+    // corpo.style.filter="blur()"
+
 });
