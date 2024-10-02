@@ -9,7 +9,6 @@
 
 #comprar {
     height: 612px;
-
     display: flex;
     flex-direction: column;
 }

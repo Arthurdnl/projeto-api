@@ -30,4 +30,3 @@ Para visualizar o projeto, você precisará de um navegador da web que suporte H
 - **JavaScript**
 
 ### Integrantes do projeto: -Arthur Davis; -Paulo gabriel; -Ryan Medeiros; -José bulhões; -Dalton Alex;
-      
