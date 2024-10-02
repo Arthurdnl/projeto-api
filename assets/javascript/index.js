@@ -1,11 +1,10 @@
 const botaoDiminuir = document.querySelector("#diminuir")
 const botaoAdicionar = document.querySelector("#adicionar")
 const quantidade = document.querySelector("#quantidadeProdutos")
-
 const btnComprar = document.querySelector("#comprarReceber")
 const btnCadastrar = document.querySelector("#btn-cadastrar");
 
-let quantidadeAtual = 0;
+let quantidadeAtual = 1;
 
 /* Abrir Modal */
 
@@ -112,7 +111,7 @@ btnCadastrar.addEventListener("click",(e)=>{
 // Botões 
 
 botaoDiminuir.addEventListener("click", (event) =>{
-    if(quantidadeAtual > 0){
+    if(quantidadeAtual > 1){
         quantidadeAtual--;
         quantidade.value = quantidadeAtual
     }
