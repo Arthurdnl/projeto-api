@@ -21,6 +21,7 @@ Para visualizar o projeto, você precisará de um navegador da web que suporte H
 
 - **Página principal (index.html)**: Apresenta a interface de navegação inicial com elementos interativos.
 - **Página de compra (compra.html)**: Interface de compra simulada com ícones de formas de pagamento e estilo personalizado.
+- **Página de finalização (finalShop)**: Interface de finalização de compra do pedido.
 
 ## Tecnologias Utilizadas
 
@@ -28,5 +29,5 @@ Para visualizar o projeto, você precisará de um navegador da web que suporte H
 - **CSS3**
 - **JavaScript**
 
-### Integrantes do projeto: -Arthur Davis; -Paulo gabriel; -Ryan Medeiros; -José bulhões; -Dalton Alex
+### Integrantes do projeto: -Arthur Davis; -Paulo gabriel; -Ryan Medeiros; -José bulhões; -Dalton Alex;
       
