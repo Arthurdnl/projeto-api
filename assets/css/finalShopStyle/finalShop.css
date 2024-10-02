@@ -6,8 +6,9 @@
     flex-direction: column;
     margin-top: 2rem;
     background-color: #0c3bdd;
-    color: #000;
+    color: white;
     border-radius: 20px;
+    padding: 3%;
 }
 
 .message-header{
