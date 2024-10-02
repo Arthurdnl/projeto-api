@@ -29,4 +29,5 @@ Para visualizar o projeto, você precisará de um navegador da web que suporte H
 - **CSS3**
 - **JavaScript**
 
-### Integrantes do projeto: -Arthur Davis; -Paulo gabriel; -Ryan Medeiros; -José bulhões; -Dalton Alex;
+### Integrantes do projeto: -Arthur Davis; -Paulo Gabriel; -Ryan Medeiros; -José Bulhões; -Dalton Alex;
+
